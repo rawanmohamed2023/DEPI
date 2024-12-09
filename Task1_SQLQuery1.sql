@@ -1,13 +1,14 @@
---create database Test
+create database Test
 
---SELECT * FROM employees;
+SELECT * FROM employees;
 
---select emp_id, emp_name,  dept_id 
---from employees 
---where  location = 'Cairo';
+select emp_id, emp_name,  dept_id 
+from employees 
+where  location = 'Cairo';
 
---SELECT DISTINCT dept_id
---FROM employees;
+SELECT DISTINCT dept_id
+FROM employees;
+
 Drop table students;
 
 CREATE TABLE students (
